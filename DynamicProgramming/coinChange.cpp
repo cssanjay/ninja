@@ -33,6 +33,7 @@ int count( int S[], int m, int n )
             table[j] += table[j-S[i]]; 
   
     return table[n]; 
+}
 int count( int S[], int m, int n ) 
 { 
     int i, j, x, y; 

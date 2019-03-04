@@ -1,5 +1,6 @@
 #include <iostream>
 #include <algorithm>
+using namespace std;
 
 int platformNeeded(int* arrival, int* departure, int n){
 	sort(arrival, arrival+n);

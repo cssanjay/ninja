@@ -13,7 +13,7 @@ int findMaxSquareWithAllZeroes(int input[][], int x, int y){
 
 	for(int j = 0; j < n; j++){
 		if(input[0][j] == 0){
-			array[0][j] = 0;
+			array[0][j] = 1;
 			max  = 1;
 		}
 		else
